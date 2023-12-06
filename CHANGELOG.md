@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/compare/v0.0.1...v0.1.0) (2023-12-06)
+
+
+### Features
+
+* **nginx:** nginx user and default config ([a2965b9](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/commit/a2965b9f477443383b019e45b7163ceeb243ced3))
+
 ## 0.0.1 (2023-12-06)
 
 
