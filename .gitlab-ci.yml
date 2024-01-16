@@ -1,7 +1,7 @@
 ---
 include:
   - project: "univention/customers/dataport/upx/common-ci"
-    ref: "v1.15.0"
+    ref: "v1.16.1"
     file:
       - "defaults/stages.yaml"
       - "defaults/souvap-workflow.yaml"
@@ -10,6 +10,7 @@ include:
       - "jobs/lint-commit-messages.yaml"
       - "jobs/semantic-release-env.yaml"
       - "jobs/container-build.yaml"
+      - "jobs/check-debian-updates.yaml"
 
 .build-matrix: &build-matrix
   - IMAGE_NAME:
@@ -35,3 +36,10 @@ publish-images:
   extends: .push-image-souvap
   parallel:
     matrix: *build-matrix
+
+check-debian-updates:
+  parallel:
+    matrix: *build-matrix
+  variables:
+    TARGET_IMAGE: "${CI_REGISTRY_IMAGE}/${IMAGE_NAME}:latest"
+...
