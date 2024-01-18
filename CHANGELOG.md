@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/compare/v0.2.0...v0.2.1) (2024-01-18)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies ([25024f6](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/commit/25024f695c3e0a7d8e806fabfafcb3940be7a4a5))
+
 ## [0.2.0](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/compare/v0.1.1...v0.2.0) (2024-01-16)
 
 
