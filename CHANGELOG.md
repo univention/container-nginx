@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/compare/v0.2.1...v0.3.0) (2024-09-13)
+
+
+### Features
+
+* update UCS base image to 2024-09-09 ([9298dac](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/commit/9298dac8a91e786141864d90cac1c8a3b5ee4603))
+
 ## [0.2.1](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/compare/v0.2.0...v0.2.1) (2024-01-18)
 
 
