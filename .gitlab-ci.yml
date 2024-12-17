@@ -1,18 +1,21 @@
 ---
 include:
   - project: "univention/customers/dataport/upx/common-ci"
-    ref: "v1.16.2"
+    ref: "v1.35.0"
     file:
       - "defaults/stages.yaml"
-      - "defaults/souvap-workflow.yaml"
-      - "templates/souvap.yaml"
+      - "defaults/nubus-workflow.yaml"
       - "jobs/lint-pre-commit.yaml"
       - "jobs/lint-commit-messages.yaml"
       - "jobs/semantic-release-env.yaml"
-      - "jobs/container-build.yaml"
+      - "jobs/container-build-external.yaml"
       - "jobs/check-debian-updates.yaml"
 
 .build-matrix: &build-matrix
+  - IMAGE_NAME:
+      - "nginx"
+
+.publish-matrix: &publish-matrix
   - IMAGE_NAME:
       - "nginx"
 
@@ -20,22 +23,9 @@ container-build:
   parallel:
     matrix: *build-matrix
 
-container-generate-sbom:
+push-image-external:
   parallel:
-    matrix: *build-matrix
-
-container-sign:
-  parallel:
-    matrix: *build-matrix
-
-container-security-scan:
-  parallel:
-    matrix: *build-matrix
-
-publish-images:
-  extends: .push-image-souvap
-  parallel:
-    matrix: *build-matrix
+    matrix: *publish-matrix
 
 check-debian-updates:
   parallel:
