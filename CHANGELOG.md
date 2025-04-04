@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.4.0...v0.4.1) (2025-04-04)
+
+
+### Bug Fixes
+
+* License header on Dockerfile ([2b74e60](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/2b74e602563e431ee685ae6d5b81e89ac27ab53f))
+
 ## [0.3.0](https://git.knut.univention.de/univention/customers/dataport/upx/container-nginx/compare/v0.2.1...v0.3.0) (2024-09-13)
 
 
