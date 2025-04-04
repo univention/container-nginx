@@ -27,6 +27,10 @@ container-malware-scan:
   parallel:
     matrix: *publish-matrix
 
+container-sign-external:
+  parallel:
+    matrix: *publish-matrix
+
 push-image-external:
   parallel:
     matrix: *publish-matrix
