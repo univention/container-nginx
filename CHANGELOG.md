@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.4.1...v0.5.0) (2025-04-29)
+
+
+### Features
+
+* Bump ucs-base-image version ([9516f54](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/9516f54f4f1ef12d47071ec3f8280de3724b428a)), closes [univention/dev/internal/team-nubus#1155](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1155)
+
 ## [0.4.1](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.4.0...v0.4.1) (2025-04-04)
 
 
