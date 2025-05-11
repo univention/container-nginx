@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.5.0...v0.6.0) (2025-05-11)
+
+
+### Features
+
+* move and upgrade ucs-base-image to 0.17.3-build-2025-05-11 ([a7fb3fa](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/a7fb3fac62f3e2f7943fc289b44b3904869d8820))
+* move and upgrade ucs-base-image to 0.17.3-build-2025-05-11 ([98559ce](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/98559ce2ea48150815b04e7477ccea6c28ed8cdc))
+
+
+### Bug Fixes
+
+* update common-ci to main ([faf135a](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/faf135aed937f9f0270b433d07931288f22f40ed))
+
 ## [0.5.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.4.1...v0.5.0) (2025-04-29)
 
 
