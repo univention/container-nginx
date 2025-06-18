@@ -29,15 +29,15 @@
 # <https://www.gnu.org/licenses/>.
 #
 
-ARG UCS_BASE_IMAGE=gitregistry.knut.univention.de/univention/dev/projects/ucs-base-image/ucs-base-521
-ARG UCS_BASE_IMAGE_TAG=0.17.3-build-2025-05-11
+ARG UCS_BASE_IMAGE=gitregistry.knut.univention.de/univention/dev/projects/ucs-base-image/ucs-base-522
+ARG UCS_BASE_IMAGE_TAG=0.18.2-build-2025-06-12
 
 FROM ${UCS_BASE_IMAGE}:${UCS_BASE_IMAGE_TAG}
 
 RUN \
   apt-get --quiet --quiet update \
   && apt-get --assume-yes --verbose-versions --no-install-recommends install \
-    nginx=1.22.* \
+  nginx=1.22.* \
   && rm -fr /var/lib/apt/lists/* /var/cache/apt/archives/* \
   && mkdir -p /var/log/nginx \
   && ln -sf /dev/stdout /var/log/nginx/access.log \
