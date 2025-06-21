@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.6.0...v0.6.1) (2025-06-21)
+
+
+### Bug Fixes
+
+* bump umc-base-image version ([9122751](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/9122751b3d1ec7ebd190950cf4f1e20d7de0167c)), closes [univention/dev/internal/team-nubus#1263](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1263)
+
 ## [0.6.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.5.0...v0.6.0) (2025-05-11)
 
 
