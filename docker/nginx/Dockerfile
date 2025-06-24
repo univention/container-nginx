@@ -30,7 +30,7 @@
 #
 
 ARG UCS_BASE_IMAGE=gitregistry.knut.univention.de/univention/dev/projects/ucs-base-image/ucs-base-522
-ARG UCS_BASE_IMAGE_TAG=0.18.2-build-2025-06-12
+ARG UCS_BASE_IMAGE_TAG=0.18.2-build-2025-06-12@sha256:f635574ae99d16c69bc80a824330e23ede0812f91a224b3975f38e5f2482cfe9
 
 FROM ${UCS_BASE_IMAGE}:${UCS_BASE_IMAGE_TAG}
 
