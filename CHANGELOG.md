@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.6.1...v0.7.0) (2025-07-17)
+
+
+### Features
+
+* update ucs-base to 5.2.2-build.20250714 ([d2c5315](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/d2c5315864a005c67f0cf4830711cbf3b0660b55)), closes [univention/dev/internal/team-nubus#1320](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1320)
+
 ## [0.6.1](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.6.0...v0.6.1) (2025-06-21)
 
 
