@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.21](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.7.20...v0.7.21) (2025-10-25)
+
+
+### Bug Fixes
+
+* **deps:** Update dependency univention/dev/nubus-for-k8s/common-ci to v1.45.2 ([bd95d09](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/bd95d093564f21139bb6908d8f6b57bb506a3485)), closes [#0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/issues/0)
+
 ## [0.7.20](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.7.19...v0.7.20) (2025-10-24)
 
 
