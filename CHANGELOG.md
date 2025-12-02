@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.31](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.7.30...v0.7.31) (2025-12-02)
+
+
+### Bug Fixes
+
+* bump image to errata 298 ([61fca32](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/61fca323b4acf18b43660d7b68b53b2eb0d69f96)), closes [univention/dev/internal/team-nubus#1543](https://git.knut.univention.de/univention/dev/internal/team-nubus/issues/1543)
+
 ## [0.7.30](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.7.29...v0.7.30) (2025-11-20)
 
 
