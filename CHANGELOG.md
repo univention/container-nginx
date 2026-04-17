@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.43](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.7.42...v0.7.43) (2026-04-17)
+
+
+### Bug Fixes
+
+* **deps:** Update gitregistry.knut.univention.de/univention/dev/projects/ucs-base-image/ucs-base Docker tag to v5.2.5-build.20260417 ([f6326f1](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/commit/f6326f13799cab5104b8d98fe7a3db646c9b6a23)), closes [#0](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/issues/0)
+
 ## [0.7.42](https://git.knut.univention.de/univention/dev/nubus-for-k8s/nginx/compare/v0.7.41...v0.7.42) (2026-03-26)
 
 
