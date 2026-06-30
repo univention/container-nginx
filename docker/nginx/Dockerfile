@@ -29,20 +29,20 @@
 # <https://www.gnu.org/licenses/>.
 #
 
+ARG UCS_BASE_IMAGE_TAG=5.3.0-build.20260702@sha256:a30140a63069cdfbd400cc1b677c48b4db043d055898729d3be62d3bbc7dd72e
 ARG UCS_BASE_IMAGE=gitregistry.knut.univention.de/univention/dev/projects/ucs-base-image/ucs-base
-ARG UCS_BASE_IMAGE_TAG=5.2.5-build.20260514@sha256:81b104694a78cf36043f84b5d9e4b3b0cbbe6777e46877239a44f08249379119
 
 FROM ${UCS_BASE_IMAGE}:${UCS_BASE_IMAGE_TAG}
 
 RUN \
   apt-get --quiet --quiet update \
   && apt-get --assume-yes --verbose-versions --no-install-recommends install \
-  nginx=1.22.* \
+  nginx=1.26.* \
   && rm -fr /var/lib/apt/lists/* /var/cache/apt/archives/* \
   && mkdir -p /var/log/nginx \
   && ln -sf /dev/stdout /var/log/nginx/access.log \
   && ln -sf /dev/stderr /var/log/nginx/error.log \
-  && adduser --disabled-password --gecos '' nginx
+  && useradd nginx
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
