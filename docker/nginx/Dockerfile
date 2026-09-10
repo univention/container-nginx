@@ -29,7 +29,7 @@
 # <https://www.gnu.org/licenses/>.
 #
 
-ARG UCS_BASE_IMAGE_TAG=5.3.0-build.20260910@sha256:a50649c5d263393040afc973884656c186799b447762d1734c5805841bd9de70
+ARG UCS_BASE_IMAGE_TAG=5.3.0-build.20260910@sha256:9e07cb7c3c61694ad951387fb659450e6dd81abf8fbbcc7aa01dc73c4f0a9793
 ARG UCS_BASE_IMAGE=gitregistry.knut.univention.de/univention/dev/projects/ucs-base-image/ucs-base
 
 FROM ${UCS_BASE_IMAGE}:${UCS_BASE_IMAGE_TAG}
